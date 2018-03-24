@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CarolineVG/kweeni.git"
   },
-  "author": "",
+  "author": "Caroline",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CarolineVG/kweeni/issues"
   },
-  "homepage": "https://github.com/CarolineVG/kweeni#readme"
+  "homepage": "https://github.com/CarolineVG/kweeni#readme",
+  "dependencies": {
+    "express": "^4.16.0",
+    "nodemon": "^1.17.2",
+    "pug": "^2.0.3"
+  }
 }
